@@ -22,24 +22,21 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "5c94ae70-8f32-11f0-8e17-151591fc7148"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "70f52cc0-8f35-11f0-bbc7-3fecad15a6b2"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "70f52cc0-8f35-11f0-bbc7-3fecad15a6b2"
+      "id" : "4dfa65a0-8fdf-11f0-8d59-9d8813a87e40"
     },
     "label" : "",
-    "name" : "PC 1",
+    "name" : "PC 2",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "10c8d53a16a781b291fd19d961b11eb668720473fffcb8e90a3673db3a63ace2",
+    "credentialsId" : "bcc0658472002f3c6263ff1898ceb4b8455976cb5f308481dffea7eaf5a490cc",
     "credentialsType" : "MQTT_BASIC",
-    "credentialsValue" : "{\"clientId\":\"1\",\"userName\":\"PC1\",\"password\":\"PC1\"}"
+    "credentialsValue" : "{\"clientId\":\"2\",\"userName\":\"PC2\",\"password\":\"PC2\"}"
   },
   "relations" : [ ],
   "attributes" : {
@@ -48,16 +45,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1757684525986,
+      "lastUpdateTs" : 1757685086960,
       "longValue" : null,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1757680156725,
-      "longValue" : 1757680156725,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -72,16 +61,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1757686311136,
-      "longValue" : 1757686311136,
+      "lastUpdateTs" : 1757686311134,
+      "longValue" : 1757686311134,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1757686311072,
-      "longValue" : 1757686311072,
+      "lastUpdateTs" : 1757686311069,
+      "longValue" : 1757686311069,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
