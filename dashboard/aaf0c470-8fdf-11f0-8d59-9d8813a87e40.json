@@ -326,40 +326,32 @@
                   "snappable" : false
                 },
                 "xKey" : {
-                  "name" : "latitude",
-                  "label" : "Latitude",
-                  "type" : "attribute",
-                  "settings" : { },
+                  "name" : "latNum",
+                  "type" : "timeseries",
+                  "label" : "latNum",
                   "color" : "#2196f3",
-                  "aggregationType" : null,
-                  "units" : null,
-                  "decimals" : null,
-                  "usePostProcessing" : null,
-                  "postFuncBody" : null
+                  "settings" : { },
+                  "_hash" : 0.6612309568761979
                 },
                 "yKey" : {
-                  "name" : "longitude",
-                  "label" : "Longitude",
-                  "type" : "attribute",
-                  "settings" : { },
+                  "name" : "lngNum",
+                  "type" : "timeseries",
+                  "label" : "lngNum",
                   "color" : "#2196f3",
-                  "aggregationType" : null,
-                  "units" : null,
-                  "decimals" : null,
-                  "usePostProcessing" : null,
-                  "postFuncBody" : null
+                  "settings" : { },
+                  "_hash" : 0.6012362550950163
                 },
                 "markerType" : "shape",
                 "markerShape" : {
                   "size" : 34,
                   "color" : {
                     "type" : "constant",
-                    "color" : "#E54E30",
+                    "color" : "#EE3915",
                     "rangeKey" : null,
                     "range" : null,
                     "colorFunction" : null
                   },
-                  "shape" : "markerShape10"
+                  "shape" : "markerShape4"
                 },
                 "markerIcon" : {
                   "iconContainer" : "iconContainer1",
@@ -458,7 +450,7 @@
                 "name" : "light",
                 "type" : "timeseries",
                 "label" : "Luz",
-                "color" : "#F6DF00",
+                "color" : "#D0BD03",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
