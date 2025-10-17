@@ -1,23 +1,26 @@
 {
   "entityType" : "DEVICE_PROFILE",
   "entity" : {
-    "default" : false,
-    "defaultDashboardId" : null,
-    "defaultEdgeRuleChainId" : null,
-    "defaultQueueName" : null,
-    "defaultRuleChainId" : null,
-    "description" : "Default device profile",
-    "externalId" : {
-      "entityType" : "DEVICE_PROFILE",
-      "id" : "5c94ae70-8f32-11f0-8e17-151591fc7148"
+    "default" : true,
+    "defaultDashboardId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "aaf0c470-8fdf-11f0-8d59-9d8813a87e40"
     },
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : "Main",
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "18689260-ab5d-11f0-9c5f-0bb9a5546d87"
+    },
+    "description" : "",
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "5c94ae70-8f32-11f0-8e17-151591fc7148"
+      "id" : "bc6633b0-ab60-11f0-9c5f-0bb9a5546d87"
     },
     "image" : null,
-    "name" : "default",
+    "name" : "Bateria",
     "profileData" : {
       "alarms" : null,
       "configuration" : {

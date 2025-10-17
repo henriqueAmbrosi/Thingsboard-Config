@@ -1,0 +1,22 @@
+{
+  "entityType" : "NOTIFICATION_TEMPLATE",
+  "entity" : {
+    "configuration" : {
+      "deliveryMethodsTemplates" : {
+        "EMAIL" : {
+          "method" : "EMAIL",
+          "body" : "<p>Seu dispositivo est&aacute; com menos de 5% de bateria</p>",
+          "enabled" : true,
+          "subject" : "Pouca bateria"
+        }
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "43548550-ab63-11f0-9c5f-0bb9a5546d87"
+    },
+    "name" : "Pouca bateria",
+    "notificationType" : "RULE_NODE"
+  }
+}
