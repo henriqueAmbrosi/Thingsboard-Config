@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "dd8aaeb0-ac2b-11f0-9b65-533103b3c402"
+      "id" : "b4636243-ac3d-11f0-946f-175422c667fb"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -53,8 +53,8 @@
     "firstNodeIndex" : 6,
     "nodes" : [ {
       "additionalInfo" : {
-        "layoutX" : 824,
-        "layoutY" : 156
+        "layoutX" : 891,
+        "layoutY" : 147
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -69,7 +69,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd899d40-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4631420-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -96,7 +96,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd89eb60-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4633b30-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Save Client Attributes",
       "queueName" : null,
@@ -117,7 +117,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd8a3980-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4633b31-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -140,7 +140,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd8a6090-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4636240-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -163,7 +163,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd8a6091-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4636241-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -184,7 +184,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd8a87a0-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4636242-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -194,8 +194,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
-        "layoutX" : 204,
-        "layoutY" : 240
+        "layoutX" : 263,
+        "layoutY" : 64
       },
       "configuration" : {
         "persistAlarmRulesState" : false,
@@ -207,7 +207,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dd8aaeb0-ac2b-11f0-9b65-533103b3c402"
+        "id" : "b4636243-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
@@ -230,7 +230,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f1f96fc0-ac2c-11f0-9b65-533103b3c402"
+        "id" : "b4638950-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Bateria baixa",
       "queueName" : null,
@@ -252,7 +252,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 193
+    "version" : 176
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

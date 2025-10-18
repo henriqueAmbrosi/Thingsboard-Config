@@ -6,7 +6,10 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f423e650-ac2b-11f0-9b65-533103b3c402"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "48e2b180-ac2c-11f0-9b65-533103b3c402"
@@ -100,7 +103,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 193
+    "version" : 176
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

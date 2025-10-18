@@ -48,7 +48,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796485815,
+      "lastUpdateTs" : 1760804147088,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,24 +64,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760717920155,
-      "longValue" : 1760717919788,
+      "lastUpdateTs" : 1760804751139,
+      "longValue" : 1760804750013,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760710236632,
-      "longValue" : 1760710236632,
+      "lastUpdateTs" : 1760804670012,
+      "longValue" : 1760804670011,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1760710236579,
-      "longValue" : 1760710236579,
+      "lastUpdateTs" : 1760804669970,
+      "longValue" : 1760804669970,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "71e1ad10-ac28-11f0-9229-6333739c5a0b"
+      "id" : "8bf2c0d0-ac3d-11f0-96dd-55733c69a5f3"
     },
     "type" : "SCRIPT"
   } ]

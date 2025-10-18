@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "13814000-1dd2-11b2-8080-808080808080"
+      "id" : "af0a4020-8fe6-11f0-ada9-f5bf11581695"
     },
     "deviceData" : {
       "configuration" : {
@@ -37,9 +37,9 @@
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "cac1da7ab659902329821ae8a0f3620b0123b612884adea5d526b3aaf8c517fa",
+    "credentialsId" : "9161d72ce5d00eda8642bf73bdd9a8448382ee23b48f2d356024b993ce711745",
     "credentialsType" : "MQTT_BASIC",
-    "credentialsValue" : "{\"clientId\":\"2\",\"userName\":\"ANDROID\",\"password\":\"ANDROID\"}"
+    "credentialsValue" : "{\"clientId\":\"5\",\"userName\":\"ANDROID\",\"password\":\"ANDROID\"}"
   },
   "relations" : [ ],
   "attributes" : {
@@ -48,7 +48,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796485815,
+      "lastUpdateTs" : 1760804147132,
       "longValue" : null,
       "strValue" : null
     }, {

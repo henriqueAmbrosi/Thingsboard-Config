@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "13814000-1dd2-11b2-8080-808080808080"
+      "id" : "af0a4020-8fe6-11f0-ada9-f5bf11581695"
     },
     "deviceData" : {
       "configuration" : {
@@ -48,7 +48,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796485802,
+      "lastUpdateTs" : 1760804147086,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,24 +64,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760717920156,
-      "longValue" : 1760717919789,
+      "lastUpdateTs" : 1760804751139,
+      "longValue" : 1760804750013,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760710236632,
-      "longValue" : 1760710236632,
+      "lastUpdateTs" : 1760804670014,
+      "longValue" : 1760804670014,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1760710236579,
-      "longValue" : 1760710236579,
+      "lastUpdateTs" : 1760804669970,
+      "longValue" : 1760804669970,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

@@ -2461,8 +2461,11 @@
     },
     "name" : "Firmware",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "72c68ed0-ac28-11f0-9229-6333739c5a0b"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "72c68ed0-ac28-11f0-9229-6333739c5a0b"
