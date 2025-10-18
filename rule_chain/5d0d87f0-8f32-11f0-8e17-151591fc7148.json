@@ -22,6 +22,10 @@
   },
   "metaData" : {
     "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
       "fromIndex" : 2,
       "toIndex" : 0,
       "type" : "Post telemetry"
@@ -210,10 +214,46 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1172,
+        "layoutY" : 167
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "f423e650-ac2b-11f0-9b65-533103b3c402"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f1f96fc0-ac2c-11f0-9b65-533103b3c402"
+      },
+      "name" : "Bateria baixa",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "5d0d87f0-8f32-11f0-8e17-151591fc7148"
+    },
+    "to" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f423e650-ac2b-11f0-9b65-533103b3c402"
+    },
+    "type" : "Uses",
+    "typeGroup" : "COMMON",
+    "version" : 193
+  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
