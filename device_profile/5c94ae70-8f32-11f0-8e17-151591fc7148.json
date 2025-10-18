@@ -1,11 +1,17 @@
 {
   "entityType" : "DEVICE_PROFILE",
   "entity" : {
-    "default" : false,
+    "default" : true,
     "defaultDashboardId" : null,
-    "defaultEdgeRuleChainId" : null,
+    "defaultEdgeRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "5d275180-8f32-11f0-8e17-151591fc7148"
+    },
     "defaultQueueName" : null,
-    "defaultRuleChainId" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "5d0d87f0-8f32-11f0-8e17-151591fc7148"
+    },
     "description" : "Default device profile",
     "externalId" : {
       "entityType" : "DEVICE_PROFILE",

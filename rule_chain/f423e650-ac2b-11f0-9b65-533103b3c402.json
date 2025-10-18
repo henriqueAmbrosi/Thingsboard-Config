@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "48e2b180-ac2c-11f0-9b65-533103b3c402"
+      "id" : "b3a876b0-ac3d-11f0-946f-175422c667fb"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -38,7 +38,7 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.batteryPercentage <= 5;"
+        "tbelScript" : "return msg.batteryPercentage != undefined && msg.batteryPercentage <= 5;"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
@@ -46,7 +46,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "48e2b180-ac2c-11f0-9b65-533103b3c402"
+        "id" : "b3a876b0-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Battery <= 5%",
       "queueName" : null,
@@ -81,7 +81,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "48e2b181-ac2c-11f0-9b65-533103b3c402"
+        "id" : "b3a89dc0-ac3d-11f0-946f-175422c667fb"
       },
       "name" : "Enviar email",
       "queueName" : null,
