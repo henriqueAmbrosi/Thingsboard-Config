@@ -64,27 +64,72 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760806923138,
-      "longValue" : 1760806920452,
+      "lastUpdateTs" : 1760807715138,
+      "longValue" : 1760807713915,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760806880473,
-      "longValue" : 1760806880473,
+      "lastUpdateTs" : 1760807003683,
+      "longValue" : 1760807003683,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1760806880444,
-      "longValue" : 1760806880444,
+      "lastUpdateTs" : 1760807003652,
+      "longValue" : 1760807003652,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
   },
-  "calculatedFields" : [ ]
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SCRIPT",
+      "arguments" : {
+        "lat" : {
+          "defaultValue" : "0",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "4dfa65a0-8fdf-11f0-8d59-9d8813a87e40"
+          },
+          "refEntityKey" : {
+            "key" : "latitude",
+            "type" : "TS_LATEST"
+          }
+        },
+        "lng" : {
+          "defaultValue" : "0",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "4dfa65a0-8fdf-11f0-8d59-9d8813a87e40"
+          },
+          "refEntityKey" : {
+            "key" : "longitude",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "expression" : "// Sample script to convert temperature readings from Fahrenheit to Celsius\nreturn {\n    latNum: parseFloat(lat),\n    lngNum: parseFloat(lng),\n};",
+      "output" : {
+        "name" : "",
+        "type" : "TIME_SERIES"
+      }
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1757688898880,
+      "failuresEnabled" : true
+    },
+    "name" : "locNum",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "8bf2c0d0-ac3d-11f0-96dd-55733c69a5f3"
+    },
+    "type" : "SCRIPT"
+  } ]
 }
