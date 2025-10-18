@@ -964,8 +964,11 @@
     },
     "name" : "PC device 1",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "aaf0c470-8fdf-11f0-8d59-9d8813a87e40"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "aaf0c470-8fdf-11f0-8d59-9d8813a87e40"

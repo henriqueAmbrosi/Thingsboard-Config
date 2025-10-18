@@ -362,8 +362,11 @@
     },
     "name" : "Battery",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "aff06a60-8f36-11f0-bbc7-3fecad15a6b2"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "aff06a60-8f36-11f0-bbc7-3fecad15a6b2"

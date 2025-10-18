@@ -1,14 +1,10 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "gateway" : false,
-      "overwriteActivityTime" : false,
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "13814000-1dd2-11b2-8080-808080808080"
+      "id" : "5d3beaf0-8f32-11f0-8e17-151591fc7148"
     },
     "deviceData" : {
       "configuration" : {
@@ -22,24 +18,21 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "5c94ae70-8f32-11f0-8e17-151591fc7148"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "e0238bf0-8f35-11f0-bbc7-3fecad15a6b2"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "e0238bf0-8f35-11f0-bbc7-3fecad15a6b2"
+      "id" : "72abb3d0-ac28-11f0-9229-6333739c5a0b"
     },
-    "label" : "",
-    "name" : "Android",
+    "label" : null,
+    "name" : "Test Device A2",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "cac1da7ab659902329821ae8a0f3620b0123b612884adea5d526b3aaf8c517fa",
-    "credentialsType" : "MQTT_BASIC",
-    "credentialsValue" : "{\"clientId\":\"2\",\"userName\":\"ANDROID\",\"password\":\"ANDROID\"}"
+    "credentialsId" : "A2_TEST_TOKEN",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
   },
   "relations" : [ ],
   "attributes" : {
@@ -48,7 +41,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796485815,
+      "lastUpdateTs" : 1760796394865,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,8 +49,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1757612856152,
-      "longValue" : 1757612856152,
+      "lastUpdateTs" : 1760796394786,
+      "longValue" : 1760796394644,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

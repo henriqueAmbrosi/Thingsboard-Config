@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "5d1b91b0-8f32-11f0-8e17-151591fc7148"
+      "id" : "dd8aaeb0-ac2b-11f0-9b65-533103b3c402"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -65,7 +65,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1a3220-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd899d40-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -92,7 +92,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1aa750-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd89eb60-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Save Client Attributes",
       "queueName" : null,
@@ -101,7 +101,7 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 347,
+        "layoutX" : 460,
         "layoutY" : 149
       },
       "configuration" : {
@@ -113,7 +113,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1ace60-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd8a3980-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -136,7 +136,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1af570-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd8a6090-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -159,7 +159,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1b1c80-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd8a6091-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -180,7 +180,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1b4390-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd8a87a0-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -203,7 +203,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5d1b91b0-8f32-11f0-8e17-151591fc7148"
+        "id" : "dd8aaeb0-ac2b-11f0-9b65-533103b3c402"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
