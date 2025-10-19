@@ -20,7 +20,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "5c94ae70-8f32-11f0-8e17-151591fc7148"
+      "id" : "bc6633b0-ab60-11f0-9c5f-0bb9a5546d87"
     },
     "externalId" : {
       "entityType" : "DEVICE",
@@ -48,7 +48,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760804147112,
+      "lastUpdateTs" : 1760891504725,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,24 +64,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760807715138,
-      "longValue" : 1760807713915,
+      "lastUpdateTs" : 1760894503619,
+      "longValue" : 1760894500632,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760807003691,
-      "longValue" : 1760807003691,
+      "lastUpdateTs" : 1760894200601,
+      "longValue" : 1760894200601,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1760807003652,
-      "longValue" : 1760807003652,
+      "lastUpdateTs" : 1760894200572,
+      "longValue" : 1760894200572,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "8bf2c0d0-ac3d-11f0-96dd-55733c69a5f3"
+      "id" : "b828a030-ad04-11f0-bd2f-fb1d8fb0a891"
     },
     "type" : "SCRIPT"
   } ]

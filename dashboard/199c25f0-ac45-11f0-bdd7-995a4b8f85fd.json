@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b41edf30-ac3d-11f0-946f-175422c667fb",
+              "deviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -258,7 +258,7 @@
               "markers" : [ {
                 "dsType" : "device",
                 "dsLabel" : "",
-                "dsDeviceId" : "b41edf30-ac3d-11f0-946f-175422c667fb",
+                "dsDeviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
                 "dsEntityAliasId" : null,
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
@@ -445,7 +445,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b41edf30-ac3d-11f0-946f-175422c667fb",
+              "deviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",
@@ -964,8 +964,18 @@
     },
     "name" : "PC device 1",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ {
+      "customerId" : {
+        "entityType" : "CUSTOMER",
+        "id" : "af0a4020-8fe6-11f0-ada9-f5bf11581695"
+      },
+      "title" : "Public",
+      "public" : true
+    } ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "199c25f0-ac45-11f0-bdd7-995a4b8f85fd"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "199c25f0-ac45-11f0-bdd7-995a4b8f85fd"

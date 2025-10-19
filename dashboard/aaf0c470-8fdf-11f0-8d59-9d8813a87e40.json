@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b4184f80-ac3d-11f0-946f-175422c667fb",
+              "deviceId" : "195b4c50-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -258,7 +258,7 @@
               "markers" : [ {
                 "dsType" : "device",
                 "dsLabel" : "",
-                "dsDeviceId" : "b4184f80-ac3d-11f0-946f-175422c667fb",
+                "dsDeviceId" : "195b4c50-ad09-11f0-ac95-8bba6edf0e35",
                 "dsEntityAliasId" : null,
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
@@ -445,7 +445,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b4184f80-ac3d-11f0-946f-175422c667fb",
+              "deviceId" : "195b4c50-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",

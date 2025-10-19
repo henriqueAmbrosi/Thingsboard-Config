@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "PC device 3",
+    "title" : "Android",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "1963d7d0-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -258,7 +258,7 @@
               "markers" : [ {
                 "dsType" : "device",
                 "dsLabel" : "",
-                "dsDeviceId" : "1963d7d0-ad09-11f0-ac95-8bba6edf0e35",
+                "dsDeviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
                 "dsEntityAliasId" : null,
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
@@ -445,7 +445,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "1963d7d0-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",
@@ -879,7 +879,7 @@
       },
       "states" : {
         "default" : {
-          "name" : "PC device 3",
+          "name" : "Android",
           "root" : true,
           "layouts" : {
             "main" : {
@@ -962,7 +962,7 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "name" : "PC device 3",
+    "name" : "Android",
     "resources" : null,
     "assignedCustomers" : [ {
       "customerId" : {
@@ -972,13 +972,10 @@
       "title" : "Public",
       "public" : true
     } ],
-    "externalId" : {
-      "entityType" : "DASHBOARD",
-      "id" : "13648100-ac45-11f0-bdd7-995a4b8f85fd"
-    },
+    "externalId" : null,
     "id" : {
       "entityType" : "DASHBOARD",
-      "id" : "13648100-ac45-11f0-bdd7-995a4b8f85fd"
+      "id" : "df7496c0-ad0f-11f0-ac95-8bba6edf0e35"
     }
   },
   "relations" : [ ],
