@@ -64,16 +64,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760894476619,
-      "longValue" : 1760894476516,
+      "lastUpdateTs" : 1760895040619,
+      "longValue" : 1760895039006,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760894356508,
-      "longValue" : 1760894356508,
+      "lastUpdateTs" : 1760895039004,
+      "longValue" : 1760895039004,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -86,5 +86,50 @@
     } ],
     "SHARED_SCOPE" : [ ]
   },
-  "calculatedFields" : [ ]
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SCRIPT",
+      "arguments" : {
+        "lat" : {
+          "defaultValue" : "0",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "e0238bf0-8f35-11f0-bbc7-3fecad15a6b2"
+          },
+          "refEntityKey" : {
+            "key" : "latitude",
+            "type" : "TS_LATEST"
+          }
+        },
+        "lng" : {
+          "defaultValue" : "0",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "e0238bf0-8f35-11f0-bbc7-3fecad15a6b2"
+          },
+          "refEntityKey" : {
+            "key" : "longitude",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "expression" : "// Sample script to convert temperature readings from Fahrenheit to Celsius\nreturn {\n    latNum: parseFloat(lat),\n    lngNum: parseFloat(lng),\n};",
+      "output" : {
+        "name" : "",
+        "type" : "TIME_SERIES"
+      }
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1757688898880,
+      "failuresEnabled" : true
+    },
+    "name" : "locNum",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "b828a030-ad04-11f0-bd2f-fb1d8fb0a891"
+    },
+    "type" : "SCRIPT"
+  } ]
 }
