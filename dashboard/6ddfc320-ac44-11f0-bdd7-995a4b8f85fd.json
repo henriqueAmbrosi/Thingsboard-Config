@@ -15,9 +15,10 @@
           "sizeY" : 2.5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "1978bf60-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "85e6da4d-7d9f-a84f-31ab-cff9c8ec4764",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -256,10 +257,10 @@
               } ],
               "imageSource" : null,
               "markers" : [ {
-                "dsType" : "device",
+                "dsType" : "entity",
                 "dsLabel" : "",
-                "dsDeviceId" : "1978bf60-ad09-11f0-ac95-8bba6edf0e35",
-                "dsEntityAliasId" : null,
+                "dsDeviceId" : null,
+                "dsEntityAliasId" : "85e6da4d-7d9f-a84f-31ab-cff9c8ec4764",
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
                 "additionalDataKeys" : [ {
@@ -443,9 +444,10 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "1978bf60-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "85e6da4d-7d9f-a84f-31ab-cff9c8ec4764",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",
@@ -897,7 +899,7 @@
                   "col" : 7
                 },
                 "e8b14e31-faa2-f806-ea90-700fd7435357" : {
-                  "sizeX" : 13,
+                  "sizeX" : 22,
                   "sizeY" : 9,
                   "mobileHeight" : null,
                   "row" : 9,
@@ -916,7 +918,18 @@
           }
         }
       },
-      "entityAliases" : { },
+      "entityAliases" : {
+        "85e6da4d-7d9f-a84f-31ab-cff9c8ec4764" : {
+          "id" : "85e6da4d-7d9f-a84f-31ab-cff9c8ec4764",
+          "alias" : "Alias Device 4",
+          "filter" : {
+            "type" : "entityName",
+            "resolveMultiple" : false,
+            "entityType" : "DEVICE",
+            "entityNameFilter" : "PC 4"
+          }
+        }
+      },
       "filters" : { },
       "timewindow" : {
         "displayValue" : "",

@@ -44,11 +44,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760915757003,
+      "lastUpdateTs" : 1760916655553,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,16 +64,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760895226619,
-      "longValue" : 1760895226397,
+      "lastUpdateTs" : 1760916689517,
+      "longValue" : 1760916688057,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760895106389,
-      "longValue" : 1760895106389,
+      "lastUpdateTs" : 1760916655552,
+      "longValue" : 1760916655552,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "b8f7ae30-ad3f-11f0-a896-dda3a01a5386"
+      "id" : "9491df40-ad42-11f0-85e5-8d93634f9b86"
     },
     "type" : "SCRIPT"
   } ]

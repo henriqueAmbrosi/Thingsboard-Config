@@ -48,7 +48,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760891504711,
+      "lastUpdateTs" : 1760916313412,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,16 +64,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760916084358,
-      "longValue" : 1760916083891,
+      "lastUpdateTs" : 1760916695517,
+      "longValue" : 1760916693930,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760915163100,
-      "longValue" : 1760915163100,
+      "lastUpdateTs" : 1760916323939,
+      "longValue" : 1760916323939,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "b8f7ae30-ad3f-11f0-a896-dda3a01a5386"
+      "id" : "9491df40-ad42-11f0-85e5-8d93634f9b86"
     },
     "type" : "SCRIPT"
   } ]

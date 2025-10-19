@@ -15,9 +15,10 @@
           "sizeY" : 2.5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "90763cf0-49ce-9dfc-397f-62ed23cdff35",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -256,10 +257,10 @@
               } ],
               "imageSource" : null,
               "markers" : [ {
-                "dsType" : "device",
+                "dsType" : "entity",
                 "dsLabel" : "",
-                "dsDeviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
-                "dsEntityAliasId" : null,
+                "dsDeviceId" : null,
+                "dsEntityAliasId" : "90763cf0-49ce-9dfc-397f-62ed23cdff35",
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
                 "additionalDataKeys" : [ {
@@ -443,9 +444,10 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "197b3060-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "90763cf0-49ce-9dfc-397f-62ed23cdff35",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",
@@ -897,7 +899,7 @@
                   "col" : 7
                 },
                 "e8b14e31-faa2-f806-ea90-700fd7435357" : {
-                  "sizeX" : 13,
+                  "sizeX" : 22,
                   "sizeY" : 9,
                   "mobileHeight" : null,
                   "row" : 9,
@@ -916,7 +918,18 @@
           }
         }
       },
-      "entityAliases" : { },
+      "entityAliases" : {
+        "90763cf0-49ce-9dfc-397f-62ed23cdff35" : {
+          "id" : "90763cf0-49ce-9dfc-397f-62ed23cdff35",
+          "alias" : "Alias Android",
+          "filter" : {
+            "type" : "entityName",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityNameFilter" : "Android"
+          }
+        }
+      },
       "filters" : { },
       "timewindow" : {
         "displayValue" : "",
