@@ -34,7 +34,7 @@
     "label" : "",
     "name" : "PC 3",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Bateria"
   },
   "credentials" : {
     "credentialsId" : "58829137a94a5fce61e858c447199c5c2b0e205d285aff6ae63dbf6334f3dfe1",
@@ -64,24 +64,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1760895253619,
-      "longValue" : 1760895250780,
+      "lastUpdateTs" : 1760916084358,
+      "longValue" : 1760916083891,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1760894200601,
-      "longValue" : 1760894200601,
+      "lastUpdateTs" : 1760915163100,
+      "longValue" : 1760915163100,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1760894200572,
-      "longValue" : 1760894200572,
+      "lastUpdateTs" : 1760915148077,
+      "longValue" : 1760915148077,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "b828a030-ad04-11f0-bd2f-fb1d8fb0a891"
+      "id" : "b8f7ae30-ad3f-11f0-a896-dda3a01a5386"
     },
     "type" : "SCRIPT"
   } ]

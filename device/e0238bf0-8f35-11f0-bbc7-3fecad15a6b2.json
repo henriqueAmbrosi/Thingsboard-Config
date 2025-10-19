@@ -34,7 +34,7 @@
     "label" : "",
     "name" : "Android",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Bateria"
   },
   "credentials" : {
     "credentialsId" : "9161d72ce5d00eda8642bf73bdd9a8448382ee23b48f2d356024b993ce711745",
@@ -44,11 +44,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760892308157,
+      "lastUpdateTs" : 1760915757003,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,8 +56,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1757612856152,
-      "longValue" : 1757612856152,
+      "lastUpdateTs" : 1760915757002,
+      "longValue" : 1760915757002,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -128,7 +128,7 @@
     "name" : "locNum",
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "b828a030-ad04-11f0-bd2f-fb1d8fb0a891"
+      "id" : "b8f7ae30-ad3f-11f0-a896-dda3a01a5386"
     },
     "type" : "SCRIPT"
   } ]

@@ -30,7 +30,7 @@
     "label" : null,
     "name" : "Test Device C1",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Bateria"
   },
   "credentials" : {
     "credentialsId" : "C1_TEST_TOKEN",
@@ -44,7 +44,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796394786,
+      "lastUpdateTs" : 1760915577034,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -52,8 +52,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1760796394645,
-      "longValue" : 1760796394644,
+      "lastUpdateTs" : 1760915577001,
+      "longValue" : 1760915577000,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

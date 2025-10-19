@@ -30,7 +30,7 @@
     "label" : null,
     "name" : "Test Device A3",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Bateria"
   },
   "credentials" : {
     "credentialsId" : "A3_TEST_TOKEN",
@@ -44,7 +44,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796394788,
+      "lastUpdateTs" : 1760915577002,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -52,8 +52,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1760796394784,
-      "longValue" : 1760796394644,
+      "lastUpdateTs" : 1760915577000,
+      "longValue" : 1760915577000,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

@@ -15,9 +15,10 @@
           "sizeY" : 2.5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "f57a89cc-1a9c-6820-d916-6431c59d68d9",
               "dataKeys" : [ {
                 "name" : "batteryPercentage",
                 "type" : "timeseries",
@@ -256,10 +257,10 @@
               } ],
               "imageSource" : null,
               "markers" : [ {
-                "dsType" : "device",
+                "dsType" : "entity",
                 "dsLabel" : "",
-                "dsDeviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
-                "dsEntityAliasId" : null,
+                "dsDeviceId" : null,
+                "dsEntityAliasId" : "f57a89cc-1a9c-6820-d916-6431c59d68d9",
                 "dsFilterId" : null,
                 "additionalDataSources" : null,
                 "additionalDataKeys" : [ {
@@ -443,9 +444,10 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "196696f0-ad09-11f0-ac95-8bba6edf0e35",
+              "deviceId" : null,
+              "entityAliasId" : "f57a89cc-1a9c-6820-d916-6431c59d68d9",
               "dataKeys" : [ {
                 "name" : "light",
                 "type" : "timeseries",
@@ -916,7 +918,18 @@
           }
         }
       },
-      "entityAliases" : { },
+      "entityAliases" : {
+        "f57a89cc-1a9c-6820-d916-6431c59d68d9" : {
+          "id" : "f57a89cc-1a9c-6820-d916-6431c59d68d9",
+          "alias" : "Alias device 1",
+          "filter" : {
+            "type" : "entityName",
+            "resolveMultiple" : false,
+            "entityType" : "DEVICE",
+            "entityNameFilter" : "PC 1"
+          }
+        }
+      },
       "filters" : { },
       "timewindow" : {
         "displayValue" : "",

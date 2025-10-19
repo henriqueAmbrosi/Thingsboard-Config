@@ -32,7 +32,7 @@
     "label" : null,
     "name" : "Raspberry Pi Demo Device",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Bateria"
   },
   "credentials" : {
     "credentialsId" : "RASPBERRY_PI_DEMO_TOKEN",
@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1760796394866,
+      "lastUpdateTs" : 1760915577034,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -54,8 +54,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1760796394786,
-      "longValue" : 1760796394644,
+      "lastUpdateTs" : 1760915577001,
+      "longValue" : 1760915577000,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

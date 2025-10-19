@@ -972,7 +972,10 @@
       "title" : "Public",
       "public" : true
     } ],
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "df7496c0-ad0f-11f0-ac95-8bba6edf0e35"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "df7496c0-ad0f-11f0-ac95-8bba6edf0e35"
