@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "b4636243-ac3d-11f0-946f-175422c667fb"
+      "id" : "f987fc02-ad46-11f0-9656-f123c1c7ed0b"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -23,122 +23,35 @@
   "metaData" : {
     "connections" : [ {
       "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "True"
-    }, {
-      "fromIndex" : 3,
-      "toIndex" : 10,
+      "toIndex" : 7,
       "type" : "Success"
     }, {
-      "fromIndex" : 5,
-      "toIndex" : 3,
+      "fromIndex" : 2,
+      "toIndex" : 0,
       "type" : "Post telemetry"
     }, {
-      "fromIndex" : 5,
-      "toIndex" : 4,
+      "fromIndex" : 2,
+      "toIndex" : 1,
       "type" : "Post attributes"
     }, {
-      "fromIndex" : 5,
-      "toIndex" : 6,
+      "fromIndex" : 2,
+      "toIndex" : 3,
       "type" : "RPC Request from Device"
     }, {
-      "fromIndex" : 5,
-      "toIndex" : 7,
+      "fromIndex" : 2,
+      "toIndex" : 4,
       "type" : "Other"
     }, {
-      "fromIndex" : 5,
-      "toIndex" : 8,
+      "fromIndex" : 2,
+      "toIndex" : 5,
       "type" : "RPC Request to Device"
     }, {
-      "fromIndex" : 9,
-      "toIndex" : 5,
+      "fromIndex" : 6,
+      "toIndex" : 2,
       "type" : "Success"
     } ],
-    "firstNodeIndex" : 9,
+    "firstNodeIndex" : 6,
     "nodes" : [ {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 356,
-        "layoutY" : 143
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return msg.batteryPercentage !== undefined && Number(msg.batteryPercentage) <= 5;",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : null,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "ae2194f0-ab5d-11f0-9c5f-0bb9a5546d87"
-      },
-      "name" : "bateria baixa",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Pouca bateria",
-        "layoutX" : 662,
-        "layoutY" : 147
-      },
-      "configuration" : {
-        "useSystemSmtpSettings" : false,
-        "smtpProtocol" : "smtp",
-        "smtpHost" : "smtp.gmail.com",
-        "smtpPort" : 587,
-        "timeout" : 10000,
-        "enableTls" : true,
-        "tlsVersion" : "TLSv1.2",
-        "enableProxy" : false,
-        "proxyHost" : null,
-        "proxyPort" : null,
-        "proxyUser" : null,
-        "proxyPassword" : null,
-        "username" : "thingsboard6@gmail.com",
-        "password" : "uqvy vhue ailo lxxp"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : null,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "ae220a20-ab5d-11f0-9c5f-0bb9a5546d87"
-      },
-      "name" : "Enviar email",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 344,
-        "layoutY" : 277
-      },
-      "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
-        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : null,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6ad68b90-ab64-11f0-9c5f-0bb9a5546d87"
-      },
-      "name" : "log",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
-    }, {
       "additionalInfo" : {
         "layoutX" : 891,
         "layoutY" : 147
@@ -156,7 +69,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4631420-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987ade0-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -183,7 +96,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4633b30-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987d4f0-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Save Client Attributes",
       "queueName" : null,
@@ -192,8 +105,8 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 460,
-        "layoutY" : 149
+        "layoutX" : 362,
+        "layoutY" : 286
       },
       "configuration" : {
         "version" : 0
@@ -204,7 +117,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4633b31-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987d4f1-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -227,7 +140,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4636240-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987d4f2-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -250,7 +163,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4636241-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987fc00-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -271,7 +184,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4636242-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987fc01-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -294,7 +207,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4636243-ac3d-11f0-946f-175422c667fb"
+        "id" : "f987fc02-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
@@ -304,8 +217,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1172,
-        "layoutY" : 167
+        "layoutX" : 1205,
+        "layoutY" : 154
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -317,9 +230,9 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4638950-ac3d-11f0-946f-175422c667fb"
+        "id" : "7b2c4ef0-ad47-11f0-9656-f123c1c7ed0b"
       },
-      "name" : "Bateria baixa",
+      "name" : "Enviar Email",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -339,7 +252,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 153
+    "version" : 217
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

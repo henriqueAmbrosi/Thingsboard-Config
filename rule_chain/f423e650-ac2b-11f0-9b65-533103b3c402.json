@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "b3a876b0-ac3d-11f0-946f-175422c667fb"
+      "id" : "f8c659b0-ad46-11f0-9656-f123c1c7ed0b"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -50,7 +50,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b3a876b0-ac3d-11f0-946f-175422c667fb"
+        "id" : "f8c659b0-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Battery <= 5%",
       "queueName" : null,
@@ -85,7 +85,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b3a89dc0-ac3d-11f0-946f-175422c667fb"
+        "id" : "f8c680c0-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Enviar email",
       "queueName" : null,
@@ -103,7 +103,7 @@
         "toTemplate" : "thingsboard6@gmail.com",
         "ccTemplate" : null,
         "bccTemplate" : null,
-        "subjectTemplate" : "Device ${deviceType} low battery",
+        "subjectTemplate" : "Device ${deviceName} low battery",
         "mailBodyType" : "false",
         "bodyTemplate" : "Device ${deviceName} has $[batteryPercentage]% battery."
       },
@@ -113,7 +113,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6a23e910-ac43-11f0-bdd7-995a4b8f85fd"
+        "id" : "f8c6a7d0-ad46-11f0-9656-f123c1c7ed0b"
       },
       "name" : "Formato do email",
       "queueName" : null,
@@ -135,7 +135,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 153
+    "version" : 217
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
